@@ -1,0 +1,24 @@
+Learning iteration 851/100001
+Mean reward: 85.73
+Episode_Reward/track_anchor_linear_velocity: 0.5761
+Episode_Reward/track_anchor_angular_velocity: 0.8354
+Episode_Reward/joint_acc_l2: -0.0291
+Episode_Reward/joint_pos_limits: -0.0871
+Episode_Reward/action_rate_l2: -0.0727
+Episode_Reward/foot_slip: -0.0016
+Metrics/twist/error_vel_xy: 1.6088
+Metrics/twist/error_vel_yaw: 1.9154
+
+Learning iteration 1403/101301
+Mean reward: 25.65
+Mean amp reward after lerp: 14.3835
+Mean task reward after lerp: 15.3289
+Mean raw task reward: 20.4385
+Mean outside start penalty: -4.0593
+Episode_Reward/command_stillness_start_penalty: -0.8034
+Episode_Metrics/command_stillness_active_after_1s: 0.8710
+Episode_Metrics/command_stillness_still_after_1s: 0.1641
+Episode_Metrics/command_stillness_linear_speed_after_1s: 0.3080
+Episode_Metrics/command_stillness_yaw_speed_after_1s: 0.8485
+Metrics/twist/error_vel_xy: 1.6757
+Metrics/twist/error_vel_yaw: 2.5767

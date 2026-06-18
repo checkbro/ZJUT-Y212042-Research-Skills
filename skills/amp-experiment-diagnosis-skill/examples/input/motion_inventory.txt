@@ -1,0 +1,13 @@
+Motion set: Dittle retargeted G1 Walk/Run Direct set
+
+Expected research intent:
+- Keep the original forward/backward/lateral locomotion clips.
+- Replace weak old in-place turning clips with four newly cut and retargeted turning clips.
+- Preserve left/right directional balance where possible.
+
+Known audit notes:
+- A folder name such as Direct17 may not equal the actual number of loaded motions.
+- Recursive motion loaders can accidentally count backup folders unless those folders are outside the motion root.
+- One experiment reported 21 loaded motions when the expected count was 19, consistent with two old turn clips still being loaded or a backup folder being included.
+- Direct joint-name mapping from BONES-SEED G1 to Dittle produced arm hyperextension.
+- The corrected path used earlier G1-to-Dittle retarget templates to keep feasible Dittle posture.
